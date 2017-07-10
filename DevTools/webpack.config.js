@@ -6,11 +6,11 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, "build"),
-    publicPath: "/assets/",
+    // publicPath: "/assets/",
     filename: "bundle.js"
   },
-  devServer: {
-  	inline:true
-  },
+  // devServer: {
+  // 	inline:true
+  // },
   plugins:[new webpack.HotModuleReplacementPlugin()]
 };

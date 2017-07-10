@@ -5,14 +5,8 @@ var config = require('./webpack.config.js');
 config.entry.app.unshift("webpack-dev-server/client?http://localhost:8080/", "webpack/hot/dev-server");
 var compiler = webpack(config);
 var server = new WebpackDevServer(compiler,{
-	contentBase: "build/",
-	publicPath: "/assets/",
-	hot:true,
-	proxy: {
-	  '/api': {
-	    target: 'https://api.github.com/issues',
-	    secure: false
-	  }
-	}
+	 // contentBase: "bi/",
+	publicPath: "/build/",
+	hot:true
 });
 server.listen(8080);

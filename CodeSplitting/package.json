@@ -1,0 +1,20 @@
+{
+  "name": "codesplitting",
+  "version": "1.0.0",
+  "description": "For big web apps it’s not efficient to put all code into a single file, especially if some blocks of code are only required under some circumstances. Webpack has a feature to split your codebase into “chunks” which are loaded on demand. Some other bundlers call them “layers”, “rollups”, or “fragments”. This feature is called “code splitting”.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "codesplitting"
+  ],
+  "author": "huasheng",
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^3.1.1",
+    "underscore": "^1.8.3",
+    "webpack": "^1.14.0"
+  }
+}
