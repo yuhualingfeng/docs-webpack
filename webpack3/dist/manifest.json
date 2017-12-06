@@ -1,5 +1,10 @@
 {
-  "font.woff2?v=4.7.0": "af7ae505a9eed503f8b8e6982036873e.woff2",
-  "icon.png": "f117bfd541f985c7bf651cb50cebc17a.png",
-  "main.js": "bundle.js"
+  "Blank.js": "Blank.chunk.js",
+  "app.css": "app_1.css",
+  "app.js": "app.js",
+  "glyphicons-halflings-regular.eot": "f4769f9bdb7466be65088239c12046d1.eot",
+  "glyphicons-halflings-regular.svg": "89889688147bd7575d6327160d64e760.svg",
+  "glyphicons-halflings-regular.ttf": "e18bbf611f2a2e43afc071aa2f4e1512.ttf",
+  "glyphicons-halflings-regular.woff": "fa2772327f55d8198301fdb8bcfc8158.woff",
+  "glyphicons-halflings-regular.woff2": "448c34a56d699c29117adc64c43affeb.woff2"
 }

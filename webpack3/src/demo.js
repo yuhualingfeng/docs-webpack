@@ -1,5 +1,5 @@
 import {render} from 'react-dom';
-import {Route, BrowserRouter,HashRouter,Switch,Redirect,Link} from 'react-router-dom';
+import {Router, Route, hashHistory, IndexRoute, browserHistory,HashRouter,Switch,Redirect,Link} from 'react-router-dom';
 import {Provider} from 'react-redux';
 import {createStore} from 'redux';
 import reducer from './redux/reducers';
