@@ -1,4 +1,4 @@
-# webpack-demos
+# webpack docs
 ## 特点
 ### Plugins(插件)
 webpack有着丰富的插件接口,这使得webpack非常的灵活
